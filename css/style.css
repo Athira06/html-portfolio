@@ -39,6 +39,12 @@ ul li a:hover{
     transform: scale(1);
 }
 
+ul li a:active{
+    background-color:#f9004d ;
+    box-shadow:0 5px rgb(25,25,25);
+    transform: translateY(5px);
+}
+
 .logo img{
     float: left;
     width: 100px;
@@ -99,6 +105,14 @@ h4{
     padding: 10px 25px;
     border-radius: 30px;
     transition: transform .4s;   
+}
+.btn:hover{
+    background-color: #f9004d;
+}
+.btn:active{
+    background-color: #f9004d;
+    box-shadow: 0 5px rgb(25,25,25);
+    transform: translateX(5px);
 }
 .about{
     width: 100%;
